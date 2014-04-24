@@ -74,12 +74,12 @@ input.parsley-success, textarea.parsley-success {
 
 
 /********************************************************
-      FizBase.css V1.0 Start
+      FizBase.css V1.1 Start
 ********************************************************/
 /********************************************************
       Helper classes
 ********************************************************/
-* {position: relative;}
+
 /**** Text color */
 .cblu{color: #2C66B1;}
 .cgre{color: #51a84f;}
