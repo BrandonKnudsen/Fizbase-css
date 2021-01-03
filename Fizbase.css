@@ -1,80 +1,6 @@
-/********************************************************
-      Normalize.css  (Optional) -- Remove if Normalize is already on site.  http://necolas.github.io/normalize.css/
-********************************************************/
-/****article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,video{display:inline-block}audio:not([controls]){display:none;height:0}[hidden]{display:none}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}a:focus{outline:thin dotted}a:active,a:hover{outline:0}h1{font-size:2em;margin:0.67em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}mark{background:#ff0;color:#000}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em}pre{white-space:pre-wrap}q{quotes:"\201C" "\201D" "\2018" "\2019"}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}button,input{line-height:normal}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0} */
-
-/*-----------------------------------------------------------------------------------*/
-/*	9.	Comments
-/*-----------------------------------------------------------------------------------*/
-.comments .textarea {
-    border: 1px solid #EDEDED;
-    margin-bottom: 40px;
-    margin-left: 94px;
-    padding: 10px 20px;
-    position: relative;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-}
-.comments .avatar{
-    position: relative;
-    float: left;
-    margin-right: -5px;
-}
-.comments .comments-list{
-    list-style: none !important;
-}
-.comments .comments-list ul{
-    margin-left: 30px;
-    margin-bottom: 20px;
-}
-.comments .meta{
-    font: 12px 'Open Sans', serif;
-    color: #666666;
-    padding-bottom: 8px;
-    margin-bottom: 10px !important;
-    border-bottom: 1px dotted #e2e2e2;
-}
-.comments ul ul .textarea {margin-top:-20px;}
-
-p{
-	display: inline-block;
-}
-
-#comments ul {
-	list-style: none;
-}
-#comments textarea{
-	width: 50%;
-	height: 100px;
-}
-/********************************************************
-      Parsley.js error classes  (optional)  http://parsleyjs.org/
-********************************************************/
-input.parsley-success, textarea.parsley-success {
-        color: #298429 !important;
-        background-color: #DFF0D8 !important;
-        border: 1px solid #D6E9C6 !important;
-      }
-      input.parsley-error, textarea.parsley-error {
-        color: #ad2e2b !important;
-        background-color: #F2DEDE !important;
-        border: 1px solid #EED3D7 !important;
-      }
-      
-      ul.parsley-error-list {
-          font-size: 11px;
-          margin: 2px;
-          list-style-type:none;
-          color: #999999;
-      }
-      ul.parsley-error-list li {
-          line-height: 11px;
-      }
-
 
 /********************************************************
-      FizBase.css V1.1 Start
+      FizBase.css https://github.com/BrandonKnudsen/Fizbase-css
 ********************************************************/
 /********************************************************
       Helper classes
@@ -88,7 +14,6 @@ input.parsley-success, textarea.parsley-success {
 .cwhi{color: #fff !important;}
 .cbla{color: #000;}
 .cgra{color: #aaaaaa;}
-.cgeorge{color: #faa21e;}
 
 .bcblu{background-color: #2C66B1; border-color: #2C66B1;}
 .bcgre{background-color: #51a84f; border-color: #51a84f;}
@@ -97,7 +22,6 @@ input.parsley-success, textarea.parsley-success {
 .bcwhi{background-color: #fff; border-color: #fff;}
 .bcbla{background-color: #000; border-color: #000;}
 .bcgra{background-color: #aaaaaa; border-color: #aaaaaa;}
-.bcgeorge{background-color: #faa21e; border-color: #faa21e;}
 
 .bcblu:hover,
 .bcblu:focus,
@@ -105,12 +29,12 @@ input.parsley-success, textarea.parsley-success {
 .bcblu.active,
 .bcblu.disabled,
 .bcblu[disabled] {
-  color: #ffffff !important;
-  background-color: #3b7ed6 !important;
+    color: #ffffff !important;
+    background-color: #3b7ed6 !important;
 }
 .bcblu:active,
 .bcblu.active {
-  background-color: #2C66B1 \9 !important;
+    background-color: #2C66B1 \9 !important;
 }
 
 .bcgre:hover,
@@ -119,12 +43,12 @@ input.parsley-success, textarea.parsley-success {
 .bcgre.active,
 .bcgre.disabled,
 .bcgre[disabled] {
-  color: #ffffff !important;
-  background-color: #62cd61 !important;
+    color: #ffffff !important;
+    background-color: #62cd61 !important;
 }
 .bcgre:active,
 .bcgre.active {
-  background-color: #51a84f \9 !important;
+    background-color: #51a84f \9 !important;
 }
 
 .bcyel:hover,
@@ -133,12 +57,12 @@ input.parsley-success, textarea.parsley-success {
 .bcyel.active,
 .bcyel.disabled,
 .bcyel[disabled] {
-  color: #ffffff !important;
-  background-color: #fada58 !important;
+    color: #ffffff !important;
+    background-color: #fada58 !important;
 }
 .bcyel:active,
 .bcyel.active {
-  background-color: #fab758 \9 !important;
+    background-color: #fab758 \9 !important;
 }
 
 
@@ -148,12 +72,12 @@ input.parsley-success, textarea.parsley-success {
 .bcred.active,
 .bcred.disabled,
 .bcred[disabled] {
-  color: #ffffff !important;
-  background-color: #e35749 !important;
+    color: #ffffff !important;
+    background-color: #e35749 !important;
 }
 .bcred:active,
 .bcred.active {
-  background-color: #c73a2d \9 !important;
+    background-color: #c73a2d \9 !important;
 }
 
 
@@ -163,12 +87,12 @@ input.parsley-success, textarea.parsley-success {
 .bcwhi.active,
 .bcwhi.disabled,
 .bcwhi[disabled] {
-  color: #000 !important;
-  background-color: #fff !important;
+    color: #000 !important;
+    background-color: #fff !important;
 }
 .bcwhi:active,
 .bcwhi.active {
-  background-color: #fff \9 !important;
+    background-color: #fff \9 !important;
 }
 
 
@@ -178,12 +102,12 @@ input.parsley-success, textarea.parsley-success {
 .bcbla.active,
 .bcbla.disabled,
 .bcbla[disabled] {
-  color: #ffffff !important;
-  background-color: #000 !important;
+    color: #ffffff !important;
+    background-color: #000 !important;
 }
 .bcbla:active,
 .bcbla.active {
-  background-color: #000 \9 !important;
+    background-color: #000 \9 !important;
 }
 
 
@@ -193,47 +117,32 @@ input.parsley-success, textarea.parsley-success {
 .bcgra.active,
 .bcgra.disabled,
 .bcgra[disabled] {
-  color: #ffffff !important;
-  background-color: #d5d5d5 !important;
+    color: #ffffff !important;
+    background-color: #d5d5d5 !important;
 }
 .bcgra:active,
 .bcgra.active {
-  background-color: #aaaaaa \9 !important;
-}
-
-
-.bcgeorge:hover,
-.bcgeorge:focus,
-.bcgeorge:active,
-.bcgeorge.active,
-.bcgeorge.disabled,
-.bcgeorge[disabled] {
-  color: #ffffff !important;
-  background-color: #f7b859 !important;
-}
-.bcgeorge:active,
-.bcgeorge.active {
-  background-color: #faa21e \9 !important;
+    background-color: #aaaaaa \9 !important;
 }
 
 
 
 /**** Position */
-.hide{display: none;}
-.left{float: left;}
-.right{float: right !important;}
-.clear{clear: both;}
-.relative{position: relative;}
-.absolute{position: absolute;}
+.fiz-hide{display: none;}
+.fiz-left{float: left;}
+.fiz-right{float: right !important;}
+.fiz-clear{clear: both;}
+.fiz-relative{position: relative;}
+.fiz-absolute{position: absolute;}
 
 /**** align */
-.justify{text-align: justify;}
-.aright{text-align: right;}
-.aleft{text-align: left;}
-.acenter{text-align: center;}
+.fiz-justify{text-align: justify;}
+.fiz-aright{text-align: right;}
+.fiz-aleft{text-align: left;}
+.fiz-acenter{text-align: center;}
 
 /**** cursor */
-.point{cursor: pointer;}
+.pointer{cursor: pointer;}
 
 /**** margin */
 .mar5{margin: 5px;}
@@ -321,339 +230,338 @@ input.parsley-success, textarea.parsley-success {
 .text-huge{font-size: 34px !important;}
 
 /**** boxes */
-.box{
-border-radius: 4px;
-background-color: #fff;
--webkit-box-shadow: 0 1px 3px 0 #aaaaaa;
--moz-box-shadow: 0 1px 3px 0 #aaaaaa;
-box-shadow: 0 1px 3px 0 #aaaaaa;
+.fiz-box{
+    border-radius: 4px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 3px 0 #aaaaaa;
+    -moz-box-shadow: 0 1px 3px 0 #aaaaaa;
+    box-shadow: 0 1px 3px 0 #aaaaaa;
 }
-.boxx{
-border-radius: 4px;
--webkit-box-shadow: 0 1px 3px 0 #aaaaaa;
--moz-box-shadow: 0 1px 3px 0 #aaaaaa;
-box-shadow: 0 1px 3px 0 #aaaaaa;
+.fiz-boxx{
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 3px 0 #aaaaaa;
+    -moz-box-shadow: 0 1px 3px 0 #aaaaaa;
+    box-shadow: 0 1px 3px 0 #aaaaaa;
 }
 /**** shades */
-.sha{
--webkit-box-shadow: inset 0px 0px 5px 0px #999999;
-        
-        box-shadow: inset 0px 0px 5px 0px #999999;
+.fiz-sha{
+    -webkit-box-shadow: inset 0px 0px 5px 0px #999999;
+
+    box-shadow: inset 0px 0px 5px 0px #999999;
 }
-.tsha{
-	text-shadow: 1px 1px 1px #000000;
-        filter: dropshadow(color=#000000, offx=1, offy=1);
+.fiz-tsha{
+    text-shadow: 1px 1px 1px #000000;
+    filter: dropshadow(color=#000000, offx=1, offy=1);
 }
 /********************************************************
       Widths
 ********************************************************/
 /* Fizbase: Large SCREENS */
 .l0 {
-  width: 0%;
-  display: none;
+    width: 0%;
+    display: none;
 }
 .l95 {
-  width: 95%;
-  float: left;
+    width: 95%;
+    float: left;
 }
 .l90 {
-  width: 90%;
-  float: left;
+    width: 90%;
+    float: left;
 }
 .l85 {
-  width: 85%;
-  float: left;
+    width: 85%;
+    float: left;
 }
 .l80 {
-  width: 80%;
-  float: left;
+    width: 80%;
+    float: left;
 }
 .l75 {
-  width: 75%;
-  float: left;
+    width: 75%;
+    float: left;
 }
 .l70 {
-  width: 70%;
-  float: left;
+    width: 70%;
+    float: left;
 }
 .l65 {
-  width: 65%;
-  float: left;
+    width: 65%;
+    float: left;
 }
 .l60 {
-  width: 60%;
-  float: left;
+    width: 60%;
+    float: left;
 }
 .l55 {
-  width: 55%;
-  float: left;
+    width: 55%;
+    float: left;
 }
 .l50 {
-  width: 50%;
-  float: left;
+    width: 50%;
+    float: left;
 }
 .l45 {
-  width: 45%;
-  float: left;
+    width: 45%;
+    float: left;
 }
 .l40 {
-  width: 40%;
-  float: left;
+    width: 40%;
+    float: left;
 }
 .l35 {
-  width: 35%;
-  float: left;
+    width: 35%;
+    float: left;
 }
 .l30 {
-  width: 30%;
-  float: left;
+    width: 30%;
+    float: left;
 }
 .l25 {
-  width: 25%;
-  float: left;
+    width: 25%;
+    float: left;
 }
 .l20 {
-  width: 20%;
-  float: left;
+    width: 20%;
+    float: left;
 }
 .l15 {
-  width: 15%;
-  float: left;
+    width: 15%;
+    float: left;
 }
 .l10 {
-  width: 10%;
-  float: left;
+    width: 10%;
+    float: left;
 }
 .l5 {
-  width: 5%;
-  float: left;
+    width: 5%;
+    float: left;
 }
 .l33 {
-  width: 33.33%;
-  float: left;
+    width: 33.33%;
+    float: left;
 }
 .l66 {
-  width: 66.66%;
-  float: left;
+    width: 66.66%;
+    float: left;
 }
 .l100 {
-  width: 100%;
-  clear: both;
-  float: none;
+    width: 100%;
+    clear: both;
+    float: none;
 }
 
 /* Fizbase: MEDIUM SCREENS */
 @media screen and (max-width: 1200px) {
 
-.m0 {
-  width: 0%;
-  display: none;
-}
-.m95 {
-  width: 95%;
-  float: left;
-}
-.m90 {
-  width: 90%;
-  float: left;
-}
-.m85 {
-  width: 85%;
-  float: left;
-}
-.m80 {
-  width: 80%;
-  float: left;
-}
-.m75 {
-  width: 75%;
-  float: left;
-}
-.m70 {
-  width: 70%;
-  float: left;
-}
-.m65 {
-  width: 65%;
-  float: left;
-}
-.m60 {
-  width: 60%;
-  float: left;
-}
-.m55 {
-  width: 55%;
-  float: left;
-}
-.m50 {
-  width: 50%;
-  float: left;
-}
-.m45 {
-  width: 45%;
-  float: left;
-}
-.m40 {
-  width: 40%;
-  float: left;
-}
-.m35 {
-  width: 35%;
-  float: left;
-}
-.m30 {
-  width: 30%;
-  float: left;
-}
-.m25 {
-  width: 25%;
-  float: left;
-}
-.m20 {
-  width: 20%;
-  float: left;
-}
-.m15 {
-  width: 15%;
-  float: left;
-}
-.m10 {
-  width: 10%;
-  float: left;
-}
-.m5 {
-  width: 5%;
-  float: left;
-}
-.m33 {
-  width: 33.33%;
-  float: left;
-}
-.m66 {
-  width: 66.66%;
-  float: left;
-}
-.m100 {
-  width: 100%;
-  clear: both;
-  float: none;
-}
-[class*="m"] {
-  margin-top: 0;
-  zoom: 1;
-}
-table[class*="m"],
-th[class*="m"],
-td[class*="m"] {
-  float: none;
-}
+    .m0 {
+        width: 0%;
+        display: none;
+    }
+    .m95 {
+        width: 95%;
+        float: left;
+    }
+    .m90 {
+        width: 90%;
+        float: left;
+    }
+    .m85 {
+        width: 85%;
+        float: left;
+    }
+    .m80 {
+        width: 80%;
+        float: left;
+    }
+    .m75 {
+        width: 75%;
+        float: left;
+    }
+    .m70 {
+        width: 70%;
+        float: left;
+    }
+    .m65 {
+        width: 65%;
+        float: left;
+    }
+    .m60 {
+        width: 60%;
+        float: left;
+    }
+    .m55 {
+        width: 55%;
+        float: left;
+    }
+    .m50 {
+        width: 50%;
+        float: left;
+    }
+    .m45 {
+        width: 45%;
+        float: left;
+    }
+    .m40 {
+        width: 40%;
+        float: left;
+    }
+    .m35 {
+        width: 35%;
+        float: left;
+    }
+    .m30 {
+        width: 30%;
+        float: left;
+    }
+    .m25 {
+        width: 25%;
+        float: left;
+    }
+    .m20 {
+        width: 20%;
+        float: left;
+    }
+    .m15 {
+        width: 15%;
+        float: left;
+    }
+    .m10 {
+        width: 10%;
+        float: left;
+    }
+    .m5 {
+        width: 5%;
+        float: left;
+    }
+    .m33 {
+        width: 33.33%;
+        float: left;
+    }
+    .m66 {
+        width: 66.66%;
+        float: left;
+    }
+    .m100 {
+        width: 100%;
+        clear: both;
+        float: none;
+    }
+    [class*="m"] {
+        margin-top: 0;
+        zoom: 1;
+    }
+    table[class*="m"],
+    th[class*="m"],
+    td[class*="m"] {
+        float: none;
+    }
 }
 
 /* Fizbase: SMALL SCREENS */
 @media screen and (max-width: 700px) {
 
-.s0 {
-  width: 0%;
-  display: none;
+    .s0 {
+        width: 0%;
+        display: none;
+    }
+    .s95 {
+        width: 95%;
+        float: left;
+    }
+    .s90 {
+        width: 90%;
+        float: left;
+    }
+    .s85 {
+        width: 85%;
+        float: left;
+    }
+    .s80 {
+        width: 80%;
+        float: left;
+    }
+    .s75 {
+        width: 75%;
+        float: left;
+    }
+    .s70 {
+        width: 70%;
+        float: left;
+    }
+    .s65 {
+        width: 65%;
+        float: left;
+    }
+    .s60 {
+        width: 60%;
+        float: left;
+    }
+    .s55 {
+        width: 55%;
+        float: left;
+    }
+    .s50 {
+        width: 50%;
+        float: left;
+    }
+    .s45 {
+        width: 45%;
+        float: left;
+    }
+    .s40 {
+        width: 40%;
+        float: left;
+    }
+    .s35 {
+        width: 35%;
+        float: left;
+    }
+    .s30 {
+        width: 30%;
+        float: left;
+    }
+    .s25 {
+        width: 25%;
+        float: left;
+    }
+    .s20 {
+        width: 20%;
+        float: left;
+    }
+    .s15 {
+        width: 15%;
+        float: left;
+    }
+    .s10 {
+        width: 10%;
+        float: left;
+    }
+    .s5 {
+        width: 5%;
+        float: left;
+    }
+    .s33 {
+        width: 33.33%;
+        float: left;
+    }
+    .s66 {
+        width: 66.66%;
+        float: left;
+    }
+    .s100 {
+        width: 100%;
+        clear: both;
+        float: none;
+    }
+    [class*="s"] {
+        margin-top: 0;
+        zoom: 1;
+    }
+    table[class*="s"],
+    th[class*="s"],
+    td[class*="s"] {
+        float: none;
+    }
 }
-.s95 {
-  width: 95%;
-  float: left;
-}
-.s90 {
-  width: 90%;
-  float: left;
-}
-.s85 {
-  width: 85%;
-  float: left;
-}
-.s80 {
-  width: 80%;
-  float: left;
-}
-.s75 {
-  width: 75%;
-  float: left;
-}
-.s70 {
-  width: 70%;
-  float: left;
-}
-.s65 {
-  width: 65%;
-  float: left;
-}
-.s60 {
-  width: 60%;
-  float: left;
-}
-.s55 {
-  width: 55%;
-  float: left;
-}
-.s50 {
-  width: 50%;
-  float: left;
-}
-.s45 {
-  width: 45%;
-  float: left;
-}
-.s40 {
-  width: 40%;
-  float: left;
-}
-.s35 {
-  width: 35%;
-  float: left;
-}
-.s30 {
-  width: 30%;
-  float: left;
-}
-.s25 {
-  width: 25%;
-  float: left;
-}
-.s20 {
-  width: 20%;
-  float: left;
-}
-.s15 {
-  width: 15%;
-  float: left;
-}
-.s10 {
-  width: 10%;
-  float: left;
-}
-.s5 {
-  width: 5%;
-  float: left;
-}
-.s33 {
-  width: 33.33%;
-  float: left;
-}
-.s66 {
-  width: 66.66%;
-  float: left;
-}
-.s100 {
-  width: 100%;
-  clear: both;
-  float: none;
-}
-[class*="s"] {
-  margin-top: 0;
-  zoom: 1;
-}
-table[class*="s"],
-th[class*="s"],
-td[class*="s"] {
-  float: none;
-}
-} 
-
 
